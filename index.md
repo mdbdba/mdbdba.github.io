@@ -1,5 +1,2 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hi, I'm Mike (he/him). I'm professional tinkerer. Currently working at Angi, helping to improve their Observability practice.
+My interests have always leaned towards data and automation. I'm going to use this space to explore that a bit more deeply.
