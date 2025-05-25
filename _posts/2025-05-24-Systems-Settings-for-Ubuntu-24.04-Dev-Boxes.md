@@ -1,5 +1,10 @@
-
-
+---
+tags:
+  - Linux
+  - Ubuntu
+  - systemd
+  - limits
+---
 While Docker’s documentation does a great job covering installation and steps like enabling non-root usage, it tends to leave out important system-level configuration—like how to properly set file limits on Ubuntu. These limits are critical when running containers or Kubernetes clusters locally, especially under heavier workloads.
 
 So, I’m documenting the necessary changes here to save future me (and maybe you) from having to dig through scattered resources the next time.
