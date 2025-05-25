@@ -38,13 +38,12 @@ layout: default
     <div class="share-links">{% include sharelinks.html %}</div>
 
     <div class="post-content e-content" itemprop="articleBody">
-        {{ content }} {% include navlinks.html %}
-    </div>
+        {{ content }}<br />
 
-    <div class="tags">
         {%- if page.tags -%} Tags:&nbsp;&nbsp; {% for tag in page.tags %}
         <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}"> {{ tag }} </a
-        >&nbsp; {% endfor %} {%- endif -%}
+        >&nbsp; {% endfor %} {%- endif -%} <br />
+        {% include navlinks.html %}
     </div>
 
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
