@@ -42,7 +42,7 @@ layout: default
 
         {%- if page.tags -%} Tags:&nbsp;&nbsp; {% for tag in page.tags %}
         <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}"> {{ tag }} </a
-        >&nbsp; {% endfor %} {%- endif -%} <br />
+        >&nbsp; {% endfor %} {%- endif -%} <br /><br />
         {% include navlinks.html %}
     </div>
 
