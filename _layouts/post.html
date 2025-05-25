@@ -43,10 +43,8 @@ layout: default
 
     <div class="tags">
         {%- if page.tags -%} {% for tag in page.tags %}
-        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
-            #{{ tag }}
-        </a>
-        {% endfor %} {%- endif -%}
+        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}"> {{ tag }} </a
+        >&nbsp; {% endfor %} {%- endif -%}
     </div>
 
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
