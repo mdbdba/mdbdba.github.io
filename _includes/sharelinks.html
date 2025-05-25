@@ -61,7 +61,7 @@
 safetitle = page.title | url_encode %} {% assign safetitlepre = "[Blog] " |
 append: page.author | append: " - " | url_encode %}
 
-<span style="color: black">Share on: </span>
+<span style="color: darkslategray">Share on: </span>
 <div id="share-buttons">
     <div
         class="facebook"
@@ -77,7 +77,7 @@ append: page.author | append: " - " | url_encode %}
     <div
         class="bluesky"
         title="Share this on Bluesky"
-        onclick="window.open('https://bsky.app/intent/compose?url={{ safeurl }}&text={{ safetitle }}&via={{ site.bluesky_username }}','popup','width=600,height=600'); return false;"
+        onclick="window.open('https://bsky.app/intent/compose?text={{ safetitle }}%21{{ safeurl }} via {{ site.bluesky_username }}','popup','width=600,height=600'); return false;"
     >
         <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
             <path
