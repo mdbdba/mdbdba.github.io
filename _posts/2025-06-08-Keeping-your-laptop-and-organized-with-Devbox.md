@@ -98,7 +98,7 @@ If you want to work in another project, you simply exit the current shell and sw
     $ devbox shell
     Starting a devbox shell...
     Welcome to tov_tools!
-    ┄Tails of the Valient Game tools.
+    ┄Tails of the Valiant Game tools.
     ...
     
     (devbox)
