@@ -69,7 +69,7 @@ Finally, I’m testing the idea that reliability lives at the intersection of pe
 
 The PostgreSQL observability lab that accompanies this post is available here:
 
-- **Repository:** https://github.com/mdbdba/pgs_obs_demo
+- **Repository:** [github.com/mdbdba/pgs_obs_demo](https://github.com/mdbdba/pgs_obs_demo)
 
 The README describes what the lab includes, what it deliberately avoids, and how to run it locally. Running the lab isn’t required to follow the series, but it provides a concrete reference point as the discussion moves from ideas to evidence.
 
